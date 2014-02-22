@@ -1,0 +1,16 @@
+  body > footer {
+  @extend .sans;
+  font-size: .8em;
+  color: $footer-color;
+  text-shadow: lighten($footer-bg, 5) 0 1px;
+  background-color: lighten($sidebar-bg, 2);
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  z-index: 1;
+  a {
+    @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
+  }
+  p:last-child { margin-bottom: 0; }
+}
+

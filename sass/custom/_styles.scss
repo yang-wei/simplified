@@ -1,0 +1,61 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+/* Home page */
+div.main-grid {
+	background: transparent;
+	display:table;
+	width:100%;
+	height: 200px;
+	margin-top: 15%;
+	border: 0px;
+}
+
+div.grid {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background: transparent;
+}
+
+/* Social Icon at bottom */
+div.social-nav {
+	position: fixed;
+	background: transparent;
+	bottom: 5px;
+	right: 5px;
+	width: 100%;
+	border-bottom: none;
+}
+
+.icon-color {
+	color: $theme-color;
+}
+
+.icon-homepage {
+	margin-right: 5px;
+	float: right;
+	padding: 5px;
+}
+
+/* Separator after each post */
+article {
+	border-bottom: 0.325em solid $theme-color;
+}
+
+/* Footer in sidebar */
+.footer_in_sidebar {
+  width: 100%;
+}
+
+.footer_in_sidebar p{
+  font-size: 0.8em;
+  text-shadow: 0 1px #374251;
+  color: #888888;
+}
+
+hgroup {
+	text-decoration: none;
+	color: $main-title-color;
+}
+

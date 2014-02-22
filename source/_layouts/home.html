@@ -1,0 +1,21 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head_home.html %}
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+  <nav role="navigation">{% include navigation.html %}</nav>
+  
+  <div class="main-grid">
+  	<div class="grid">
+  	<hgroup>
+  	   <h1>{{ site.title }}</h1>
+	  {% if site.subtitle %}
+	    <h2>{{ site.subtitle }}</h2>
+	  {% endif %}
+	</hgroup>  
+  	</div>
+   </div> 
+
+   {% include social_icon.html %}
+  <!-- <footer role="contentinfo">{% include footer.html %}</footer> -->
+  {% include after_footer.html %}
+</body>
+</html>
