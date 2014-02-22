@@ -22,6 +22,15 @@ The social icon at landing page can be removed or added by editing `octopress/so
 
 This theme used [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) icons, so you can add any icon as you like. 
 
+This theme also disable Octopress default sidebar and footer. 
+So to get this after footer to work you might want to customize your '_config.yml'
+```
+sidebar: collapse
+
+default_asides: [asides/recent_posts.html, ... , asides/footer_in_sidebar.html]
+```
+
+
 ### License
 This theme is licensed under a MIT License - http://opensource.org/licenses/mit-license.html
 
