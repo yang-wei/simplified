@@ -1,6 +1,5 @@
 ---
 layout: default
-footer: false
 ---
 
 <div>
@@ -32,12 +31,4 @@ footer: false
   </section>
 {% endif %}
 </div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.page_asides.size %}
-    {% include_array page_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+

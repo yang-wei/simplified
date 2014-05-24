@@ -2,7 +2,8 @@ $noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png') !default;
 
 // 
-$theme-color: #F94C3F ;
+$theme-color: #C63D0F ;
+$secondary-theme-color : #3B3738;
 $main-title-color: $theme-color;
 
 // Main Link Colors
@@ -12,23 +13,23 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f8f8f8 !default;
+$main-bg: #ffffff !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #333 !default;
+$header-bg: $theme-color !default;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
 
-$text-color: #222 !default;
+$text-color: rgba(0,0,0,0.7) !default;
 $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
 /* Navigation */
-$nav-bg: $theme-color !default;
+$nav-bg: $secondary-theme-color !default;
 $nav-bg-front: image-url('noise.png') !default;
-$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
+$nav-bg-back: $nav-bg !default;
 $nav-color: darken($nav-bg, 38) !default;
 $nav-color-hover: darken($nav-color, 25) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
@@ -39,7 +40,7 @@ $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
 /* Sidebar colors */
-$sidebar-bg: #313B48 !default;
+$sidebar-bg: $secondary-theme-color !default;
 $sidebar-link-color: #ffffff !default;
 $sidebar-link-color-hover: $sidebar-link-color !default;
 $sidebar-link-color-active: $sidebar-link-color !default;

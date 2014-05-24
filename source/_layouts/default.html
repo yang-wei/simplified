@@ -2,7 +2,8 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
   <nav role="navigation">{% include navigation.html %}</nav>
-  <!-- <header role="banner">{% include header.html %}</header> -->
+  <header role="banner">{% include header.html %}</header>
+  
   <div id="main">
     <div id="content">
       {{ content | expand_urls: root_url }}
@@ -10,5 +11,16 @@
   </div>
   <!-- <footer role="contentinfo">{% include footer.html %}</footer> -->
   {% include after_footer.html %}
+  {% unless page.sidebar == false %}
+  <aside class="sidebar">
+    {% if site.page_asides.size %}
+      {% include_array page_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </aside>
+  {% endunless %}
 </body>
+
+
 </html>

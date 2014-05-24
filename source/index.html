@@ -1,9 +1,21 @@
 ---
-layout: home
-title: "index"
-date: 2014-02-18 15:46
-comments: true
-sharing: true
-footer: true
+layout: default
 ---
 
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}"><i class="fa fa-chevron-circle-left fa-2x icon-color"></i></a>
+    {% endif %}
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page}}"><i class="fa fa-chevron-circle-right fa-2x icon-color icon-homepage"></i></a>
+    {% endif %}
+  </div>
+</div>

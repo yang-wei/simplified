@@ -5,13 +5,14 @@ $base00:          #657b83 !default; //dark gray
 $base0:           #839496 !default; //medium gray
 $base1:           #93a1a1 !default; //medium light gray
 $base2:           #eee8d5 !default; //cream
-$base3:           #fdf6e3 !default; //white
+$base3:           #fff !default; //white
 $solar-yellow:    #b58900 !default;
 $solar-orange:    #cb4b16 !default;
 $solar-red:       #dc322f !default;
 $solar-magenta:   #d33682 !default;
 $solar-violet:    #6c71c4 !default;
-$solar-blue:      #268bd2 !default;
+$solar-blue:      #000000 !default;
+/*$solar-blue:    #268bd2*/
 $solar-cyan:      #2aa198 !default;
 $solar-green:     #859900 !default;
 
@@ -39,8 +40,13 @@ $solarized: dark !default;
 }
 
 /* non highlighted code colors */
-$pre-bg: $base03 !default;
+/*$pre-bg: $base03 !default;
 $pre-border: darken($base02, 5) !default;
 $pre-color: $base1 !default;
+*/
 
+/* Simplified Code Syntax Styles*/
+$pre-bg: $base3;
+$pre-border: #ddd;
+$pre-color: rgba(0,0,0,1);
 

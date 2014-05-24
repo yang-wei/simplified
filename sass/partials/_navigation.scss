@@ -11,20 +11,13 @@ body > nav {
       padding: .3em .5em 0;
       font-size: .85em;
       font-family: $sans;
-      line-height: 1.1em;
+      line-height: 0.8em;
       width: 95%;
-      @include border-radius(.5em);
-      @include background-clip(padding-box);
-      @include box-shadow(lighten($nav-bg, 2) 0 1px);
-      background-color: #ffffff;
-      border: 1px solid $nav-border;
-      color: #888;
+      background: $nav-bg;
+      border: 1px solid $nav-bg;
       &:focus {
-        color: #444;
-        border-color: $theme-color;
-        @include box-shadow(#80b1df 0 0 4px, #80b1df 0 0 3px inset);
-        background-color: #fff;
-        outline: none;
+        background: $nav-bg;
+        border: 1px solid $nav-bg;
       }
     }
   }
@@ -33,8 +26,7 @@ body > nav {
     select{ width: 100%; 
             font-size: .8em;
             font-weight: 900;
-            border: 1px solid #ffffff;
-            background: #ffffff;}
+           }
   }
   ul { display: none; }
   @media only screen and (min-width: 550px) {
@@ -77,8 +69,7 @@ body > nav {
       .search {
         width: 93%;
         font-size: .95em;
-        line-height: 1.2em;
-        
+        line-height: 0.8em;
       }
     }
     ul[data-subscription$=email] + form {
