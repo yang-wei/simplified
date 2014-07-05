@@ -2,7 +2,7 @@
 
 Simplified is a clean, single column theme for Octopress.
 
-This theme has a live preview [here](http://yangweilim.com).
+This theme has a live preview [here](http://yang-wei.com).
 
 
 ### Install
