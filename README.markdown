@@ -2,13 +2,13 @@
 
 Simplified is a clean, single column theme for Octopress.
 
-This theme has a live preview [here](http://yang-wei.com).
+This theme has a live preview [here](http://yangweilim.com).
 
 
 ### Install
 ```
 cd octopress
-git clone https://github.com/yangweilim/simplified.git .themes/simplified
+git clone https://github.com/yang-wei/simplified.git .themes/simplified
 rake install['simplified']
 rake generate
 ```
