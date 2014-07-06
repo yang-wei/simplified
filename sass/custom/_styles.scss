@@ -105,9 +105,37 @@ hgroup {
 	color: #fff;
 }
 
+body>header h2 {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+}
+
 /* divider */
 .divider {
 	border-top-color : #bbb;
 	margin: 0 auto;
 	width: 380px;
+}
+
+/* Syntax highlight */
+.highlight code, .highlight .line-numbers {
+	background: rgba(226, 142, 50, 0.1) url('/images/noise.png?1404529780') top left !important
+}
+.highlight table td.code {
+	border-left: 4px solid $theme-color;
+}
+.highlight .line-numbers {
+	text-shadow: none;
+}
+.highlight {
+	border: 1px solid #fff !important;
+}
+
+/* Nav Bar +  Search form */
+body>nav form .search {
+	line-height: 1em;
+	color: #aaa;
+}
+body>nav a {
+	color: #aaa;
 }

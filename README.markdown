@@ -1,6 +1,6 @@
 ## Simplified - Simple Octopress Theme
 
-Simplified is a clean, single column theme for Octopress.
+Simplified is a clean, single column theme for Octopress which is heavily inspired by [Jest](http://facebook.github.io/jest/).
 
 This theme has a live preview [here](http://yangweilim.com).
 
@@ -39,7 +39,6 @@ Updated with a cleaner interface(24 May 2014). Below are the main updates.
 
 ### More to come
 More features will be updated.
- * Cool CSS tables
  * Github like syntax highlight
 
 Feel free to use.
