@@ -118,8 +118,11 @@ body>header h2 {
 }
 
 /* Syntax highlight */
-.highlight code, .highlight .line-numbers {
-	background: rgba(226, 142, 50, 0.1) url('/images/noise.png?1404529780') top left !important
+.highlight code, .line-numbers {
+	background: rgba(226, 142, 50, 0.1) url('/images/noise.png?1404529780') top left !important;
+}
+.highlight {
+    background: rgba(226, 142, 50, 0.1);
 }
 .highlight table td.code {
 	border-left: 4px solid $theme-color;
