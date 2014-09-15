@@ -36,9 +36,9 @@ This theme is licensed under a MIT License - http://opensource.org/licenses/mit-
 Updated with a cleaner interface(24 May 2014). Below are the main updates.
  + Replace landing page with blog page
  + Minimal search form
+ + Pretty syntax highlight
 
 ### More to come
 More features will be updated.
- * Github like syntax highlight
 
 Feel free to use.
