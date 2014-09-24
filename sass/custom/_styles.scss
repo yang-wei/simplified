@@ -129,6 +129,7 @@ body>header h2 {
 }
 .highlight .line-numbers {
 	text-shadow: none;
+    background: none !important;
 }
 .highlight {
 	border: 1px solid #fff !important;
@@ -141,4 +142,11 @@ body>nav form .search {
 }
 body>nav a {
 	color: #aaa;
+}
+
+/* Set footer max width */
+aside.sidebar section {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
