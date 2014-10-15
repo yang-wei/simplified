@@ -19,9 +19,9 @@ You can change the theme color easily by changing `$theme-color` at your `octopr
 
 The social icon at landing page can be removed or added by editing `octopress/source/post/social_icon.html`. <br>
 
-This theme used [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) icons, so you can add any icon as you like. 
+This theme used [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) icons, so you can add any icon as you like from there. 
 
-This theme also disable Octopress default sidebar and footer. So to get this to work you have to customuze your `_config.yml` .
+This theme also disable Octopress default sidebar and footer. So to get this to work you have to customize your `_config.yml` .
 ```
 sidebar: collapse
 
