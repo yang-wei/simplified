@@ -12,6 +12,8 @@ git clone https://github.com/yang-wei/simplified.git .themes/simplified
 rake install['simplified']
 rake generate
 ```
+####Installation when using zsh shell
+`rake install\['simplified'\]`
 
 ### Customization
 You can change the theme color easily by changing `$theme-color` at your `octopress/sass/base/_theme.scss`. <br>
