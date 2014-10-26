@@ -47,12 +47,12 @@ body > nav {
       margin: 0;
     }
     a {
-      font-family: $sans;
+      font-family: $heading-font-family;
       font-weight: 400;
       float: left;
       text-decoration: none;
-      font-size: 1.2em;
-      padding: .1em 0;
+      font-size: 1.0em;
+      padding: .25em 0;
       line-height: 1.5em;
     }
     li + li {
